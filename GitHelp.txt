@@ -1,0 +1,4 @@
+git config --global user.name "onisiq"
+git config --global user.email "karimmalovu41@gmail.com" 
+
+git remote add origin https://github.com/onisiq/opp-64-2-onis.git
