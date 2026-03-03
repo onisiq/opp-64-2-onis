@@ -68,3 +68,5 @@ class D(B, C):
 test = D()
 # test.action()
 # print(D.mro())
+
+test = 11

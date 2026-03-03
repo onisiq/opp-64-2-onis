@@ -18,5 +18,4 @@ hero1.action()
 
 gendolf = MagicHero('Гендольф', 100, 1000)
 print(gendolf)
-gendolf.action()
-        
+gendolf.action()        

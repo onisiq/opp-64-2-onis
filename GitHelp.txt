@@ -5,3 +5,12 @@ git config --global user.email "karimmalovu41@gmail.com"
 git remote add origin https://github.com/onisiq/opp-64-2-onis.git
 
 git init
+
+git branch
+
+git branch new_branch
+
+git switch -c new  new_branch
+git push --set-upstream origin new_branch
+git push origin main
+
