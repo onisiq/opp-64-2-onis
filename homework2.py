@@ -95,8 +95,7 @@ Heroes= [
 
     
 enemy = random.choice(Heroes)#рандомно выбирает от 1 до 3 обьект
-
-choice = input("Выберите героя Warrior, Mage, Assassin: ").capitalize()
+choice = input("Выберите героя Warrior, Mage, Assassin: ").capitalize()#без разницы Б или М
 
 if choice == "Warrior":
         player = Warrior("Player Warrior",1,100,10,5)
