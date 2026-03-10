@@ -76,7 +76,10 @@ class KGSms(SmsService):
 
 class RUSms(SmsService):
     def send_otp(self, phone):
-        return f'<text>Код: 1234</text><phone>{phone}</phone>'
+        return {
+            "text": "Код: 1234",
+            "phone": phone
+        }
 
         
 
