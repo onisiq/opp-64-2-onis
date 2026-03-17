@@ -18,10 +18,6 @@ def delete_video(user):
     
 
 
-
-
-
-
 def timer(func):
     def wrapper():
         start = time.time()     
@@ -35,7 +31,6 @@ def timer(func):
 def download_video():
     time.sleep(3)
     print("Видео загружено")
-
 
 
 admin_user = {'name: ':  "Karim", 'role': "admin"}
