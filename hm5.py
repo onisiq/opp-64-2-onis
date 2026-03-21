@@ -1,5 +1,7 @@
 from faker import Faker
 
+#Faker — это очень крутая библиотека для генерации фейковых (выдуманных) данных.
+#check
 fake = Faker()
 
 print('random name:', fake.name())
@@ -13,7 +15,6 @@ def two_sum(nums, target):
             if nums[i] + nums[j] == target:
                 return [i, j]
 
-# пример
 nums = [2, 7, 11, 15]
 target = 18
 
