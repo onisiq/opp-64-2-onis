@@ -15,14 +15,14 @@ cursor.execute(
 conn.commit()
 
 def create_products(name,price,quantity):
-   cursor.execute(
-        '''INSERT INTO products (name, price, quantity) VALUES (?, ?, ?)''',
+   
+    cursor.execute(
+    '''INSERT INTO products (name, price, quantity) VALUES (?, ?, ?)''',
         (name, price, quantity)
-    )
-
-conn.commit()
-print('Product added')
-
+)
+    conn.commit()
+    print('Product added')
+   
 
 def read_products():
     cursor.execute('SELECT * FROM products')
@@ -44,10 +44,15 @@ def delete_product(id):
     DELETE FROM products WHERE id = ?
 ''', (id,)
 )
-conn.commit()
+    conn.commit()
 
-create_products("cola", 55, 100)
-read_products()
+# create_products("cola", 55, 100)
+# create_products("ramen", 100, 220)
+# create_products("bread", 115, 20)
+# read_products()
+
+
+delete_product(1)
 
 
 
